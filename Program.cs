@@ -1,23 +1,16 @@
 ﻿using System;
-namespace conditions
+namespace Loops
 {
-    public class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main()
-        {
-            int k=20;
-        
-            Console.WriteLine("Enter Your Age");
-            Console.ReadLine();
-           if(k<20)
-          {
-            Console.WriteLine("You are eligible to caste a vote");
-            }
-            else
-            {
-                Console.WriteLine("Sorry Age Issue");
-            }
-          }
-            
-        }
+      int i = 10;
+      while(i > 0)
+      {
+        Console.WriteLine(i);
+        i--;
+      }
     }
+  }
+}
